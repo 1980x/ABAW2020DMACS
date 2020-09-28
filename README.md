@@ -1,9 +1,13 @@
 # ABAW2020DMACS
-This is code for our submission in the expression track of ABAW 2020 competition.
+<strong>This is code for our submission in the expression track of ABAW 2020 competition.<strong>
 
 
-Title: Affect expression behaviour analysis in the wild using spatio-channel attention and Complementary Context Information
+<strong>Title<strong>: Affect expression behaviour analysis in the wild using spatio-channel attention and Complementary Context Information
 
 
 <strong> Our proposed FER framework:<strong>
 ![Proposed framework](Images/framework.png)
+  
+  
+ Link to annotations
+ https://drive.google.com/drive/folders/1xdWb3OKcl1jTPs7DeMI2Mi58Ei5UTAyi?usp=sharing
