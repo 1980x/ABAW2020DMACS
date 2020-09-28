@@ -6,4 +6,4 @@ Title: Affect expression behaviour analysis in the wild using spatio-channel att
 
 
 <strong> Our proposed FER framework:<strong>
-![Proposed framework](images/framework.png)
+![Proposed framework](Images/framework.png)
