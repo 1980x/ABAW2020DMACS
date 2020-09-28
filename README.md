@@ -9,5 +9,7 @@
 ![Proposed framework](Images/framework.png)
   
   
- <em>Link to annotations</em>
+<strong> <em>Link to annotations and checkpoints </em></strong>
+
+
  https://drive.google.com/drive/folders/1xdWb3OKcl1jTPs7DeMI2Mi58Ei5UTAyi?usp=sharing
