@@ -7,7 +7,11 @@
 
 <strong> Our proposed FER framework:</strong>
 ![Proposed framework](Images/framework.png)
-  
+
+<strong>Spation-Channel Attention Network(SCAN) :</strong>
+![SCAN](Images/SCAN.png)
+
+
 <strong> Some of GRADCAM visulaizations on Test set images using our model:</strong>
 ![Visualizations](Images/Visualizations_test2.png)
 
