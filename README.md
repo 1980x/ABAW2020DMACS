@@ -8,7 +8,12 @@
 <strong> Our proposed FER framework:</strong>
 ![Proposed framework](Images/framework.png)
   
-  
+<strong> Some of GRADCAM visulaizations on Test set images using our model:</strong>
+![Visualizations](Images/Visualizations_test2.png)
+
+
+
+
 <strong> <em>Link to annotations and checkpoints </em></strong>
 
 
