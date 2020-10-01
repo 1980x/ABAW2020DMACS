@@ -4,7 +4,8 @@
 
 <strong>Title</strong>: Affect expression behaviour analysis in the wild using spatio-channel attention and Complementary Context Information
 
-
+Paper: http://arxiv.org/abs/2009.14440
+ 
 <strong> Our proposed FER framework:</strong>
 
 
