@@ -17,7 +17,7 @@ Paper: http://arxiv.org/abs/2009.14440
 ![SCAN](Images/SCAN.png)
 
 
-<strong> Some of GRADCAM visulaizations on Test set images using our model:</strong>
+<strong> Some of GRADCAM visualizations on Test set images using our model:</strong>
 
 
 ![Visualizations](Images/Visualizations_test2.png)
