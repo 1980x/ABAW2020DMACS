@@ -8,7 +8,7 @@
 <strong> Our proposed FER framework:</strong>
 
 
-![Proposed framework](Images/framework.png)
+![Proposed framework](Images/graphicalabstract03.png)
 
 <strong>Spation-Channel Attention Network(SCAN) :</strong>
 
