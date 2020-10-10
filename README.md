@@ -1,6 +1,7 @@
 # ABAW2020DMACS
 <strong>This is code for our submission in the expression track of ABAW 2020 competition.</strong>
 
+<strong> Results: https://ibug.doc.ic.ac.uk/resources/fg-2020-competition-affective-behavior-analysis/ </strong>
 
 <strong>Title</strong>: Affect expression behaviour analysis in the wild using spatio-channel attention and Complementary Context Information
 
