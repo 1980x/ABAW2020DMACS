@@ -1,4 +1,4 @@
-# ABAW2020DMACS
+# ABAW2020 DMACS SSSIHL
 <strong>This is code for our submission in the expression track of ABAW 2020 competition.</strong>
 
 <strong> Results: https://ibug.doc.ic.ac.uk/resources/fg-2020-competition-affective-behavior-analysis/ </strong>
