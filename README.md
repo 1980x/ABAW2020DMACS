@@ -12,7 +12,7 @@ Paper: http://arxiv.org/abs/2009.14440
 
 ![Proposed framework](Images/graphicalabstract03.png)
 
-<strong>Spation-Channel Attention Network(SCAN) :</strong>
+<strong>Spatio-Channel Attention Network(SCAN) :</strong>
 
 
 ![SCAN](Images/SCAN.png)
