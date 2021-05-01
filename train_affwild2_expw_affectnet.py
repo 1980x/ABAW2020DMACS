@@ -34,7 +34,7 @@ import numpy as np
 import pdb
 from statistics import mean 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-from models.attentionnet import AttentionBranch, RegionBranch, AttentionLoss, count_parameters
+from models.attentionnet import AttentionBranch, RegionBranch,  count_parameters
 from models.resnet import resnet50
 
 from dataset.affectwild2_expw_affectnet import ImageList  # dataset class for AffWild2+ExpW+Affectnet datasets
@@ -196,8 +196,7 @@ def main():
     
     
 
-    criterion1 = AttentionLoss().to(device)
-    
+       
     optimizer =  torch.optim.SGD([{"params": basemodel.parameters(), "lr": 0.0001, "momentum":args.momentum,
                                  "weight_decay":args.weight_decay}])
     
@@ -229,11 +228,11 @@ def main():
         
         # train for one epoch
 
-        train(train_loader, basemodel, attention_model, region_model, criterion, criterion1, optimizer, epoch)
+        train(train_loader, basemodel, attention_model, region_model, criterion,  optimizer, epoch)
 
         adjust_learning_rate(optimizer, epoch)
 
-        prec1, f1, cm = validate(val_loader, basemodel, attention_model, region_model, criterion, criterion1,  epoch)
+        prec1, f1, cm = validate(val_loader, basemodel, attention_model, region_model, criterion,   epoch)
         print("Epoch: {}   Validation Acc: {}, Validation f1:{} and Final score :{}".format(epoch, prec1, f1, 0.0033*prec1+0.67*f1))
         # remember best prec@1 and save checkpoint
         
@@ -252,7 +251,7 @@ def main():
         
         
 
-def train(train_loader,  basemodel, attention_model, region_model, criterion, criterion1, optimizer, epoch):
+def train(train_loader,  basemodel, attention_model, region_model, criterion,  optimizer, epoch):
     batch_time = AverageMeter()
     data_time = AverageMeter()
     losses = AverageMeter()
@@ -358,7 +357,7 @@ def val_accuracy(output, target, topk=(1,)):
        precision, recall, F1_score = statistic(target_np, top1)
     return res, cm, precision, recall, F1_score
 
-def validate(val_loader,  basemodel, attention_model, region_model, criterion, criterion1, epoch):
+def validate(val_loader,  basemodel, attention_model, region_model, criterion,  epoch):
     batch_time = AverageMeter()
     data_time = AverageMeter()
     losses = AverageMeter()
