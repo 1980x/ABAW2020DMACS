@@ -36,7 +36,7 @@ import numpy as np
 import pdb
 from statistics import mean 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-from models.attentionnet import AttentionBranch, RegionBranch, AttentionLoss, count_parameters
+from models.attentionnet import AttentionBranch, RegionBranch, count_parameters
 from models.resnet import resnet50
 from dataset.affectwild2_dataset import ImageList
 from dataset.sampler import ImbalancedDatasetSampler
